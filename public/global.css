@@ -1,0 +1,56 @@
+:root{
+      --page-bg: #fbf3f4;
+      --card-bg: #efeff1;
+      --accent: #f59e0b;
+      --link: #1d4ed8;
+      --arrow-bg: #e5e7eb;
+      --arrow-fg: #6b7280;
+      --brand-orange: #f97316;
+      --brand-orange-soft: #fb923c;
+      --brand-orange-light: #fed7aa;
+      --brand-orange-glow: rgba(249,115,22,0.25);
+}
+
+    body{
+      background: var(--page-bg);
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    }
+
+/* مهم جدًا */
+html, body{
+  background-color: var(--page-bg) !important;
+  min-height: 100%;
+}
+
+/* Primary buttons aligned with client accent */
+.btn-healing-green{
+  background-color: var(--accent) !important;
+  border-color: var(--accent) !important;
+  color: #fff !important;
+}
+.btn-healing-green:hover{
+  filter: brightness(0.95);
+  color: #fff !important;
+}
+
+/* Clean card look */
+.card-clean{
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+/* Counter boxes in Transparency */
+.counter-box{
+  border-radius: 14px;
+  border: 1px solid #e5e7eb;
+  padding: 18px 14px;
+  text-align: center;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.05);
+}
+.counter-box .counter-number{
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--accent);
+}
